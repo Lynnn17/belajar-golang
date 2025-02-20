@@ -42,7 +42,7 @@ func TestChangeGomaxprox(t *testing.T) {
 
 	totalCpu := runtime.NumCPU()
 	fmt.Println("Total Cpu:", totalCpu)
-	
+
 	totalThread := runtime.GOMAXPROCS(-1)
 	fmt.Println("Total Thread", totalThread)
 
